@@ -1,6 +1,9 @@
 name: Pocket TV Android Build
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
